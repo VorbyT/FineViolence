@@ -17,27 +17,62 @@ Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Mana
 Loading C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.126 seconds
+- Completed reload, in  0.045 seconds
 Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\System.dll (this message is harmless)
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.061231 ms
+UnloadTime: 2.411906 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 153c -> priority: 1 
-DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+  Thread -> id: 1fd8 -> priority: 1 
+MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest
  
-(Filename:  Line: 481)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+Initialize engine version: 5.6.2f1 (a2913c821e27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6570 (ID=0x6759)
+    Vendor:   ATI
+    VRAM:     1012 MB
+    Driver:   15.200.1062.1004
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.220 seconds
+Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Artem\Documents\Fine Violence\FineViolence_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.327907 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1ad0 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.530564 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 701.
+Total: 1.227360 ms (FindLiveObjects: 0.109687 ms CreateObjectMapping: 0.046076 ms MarkObjects: 1.054062 ms  DeleteObjects: 0.017125 ms)
+
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
  
-(Filename:  Line: 481)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.291616 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.395901 ms
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 876.
-Total: 1.706072 ms (FindLiveObjects: 0.111318 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.529511 ms  DeleteObjects: 0.016718 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 702.
+Total: 2.062047 ms (FindLiveObjects: 0.095008 ms CreateObjectMapping: 0.046892 ms MarkObjects: 1.900166 ms  DeleteObjects: 0.018757 ms)
 

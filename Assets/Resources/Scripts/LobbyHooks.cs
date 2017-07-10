@@ -1,16 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Prototype.NetworkLobby;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class LobbyHooks : MonoBehaviour {
+public class LobbyHooks : LobbyHook {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public override void OnLobbyServerSceneLoadedForPlayer(NetworkManager manager, GameObject lobbyPlayer, GameObject gamePlayer)
+    {
+        LobbyPlayer lobby = lobbyPlayer.GetComponent<LobbyPlayer>();
+        NetworkPlayer pilot = gamePlayer.GetComponent<NetworkPlayer>();
+        pilot.name = lobby.name;
+    }
 }
