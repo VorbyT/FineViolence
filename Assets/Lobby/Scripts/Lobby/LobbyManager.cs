@@ -244,7 +244,7 @@ namespace Prototype.NetworkLobby
 		public override void OnMatchCreate(bool success, string extendedInfo, MatchInfo matchInfo)
 		{
 			base.OnMatchCreate(success, extendedInfo, matchInfo);
-            _currentMatchID = (System.UInt64)matchInfo.networkId;
+            _currentMatchID = (ulong)matchInfo.networkId;
 		}
 
 		public override void OnDestroyMatch(bool success, string extendedInfo)
