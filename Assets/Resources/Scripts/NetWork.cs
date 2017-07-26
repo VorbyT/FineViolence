@@ -3,7 +3,7 @@ using UnityEngine.Networking;
 
 public class NetWork : NetworkManager {
 
-    public static string ip;
+    public static string ip = "2.94.117.95";
 
 	// Use this for initialization
 	void Start () {

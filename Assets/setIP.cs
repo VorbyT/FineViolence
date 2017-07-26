@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+
 public class setIP : MonoBehaviour {
 
-    InputField field;
+    static InputField field;
 
     void Start()
     {
-        field = GetComponent<InputField>();
-       // field.text = NetWork.ip;
+        var path = GameObject.Find("IpField");
+        field = path.GetComponent<InputField>();
+        Debug.Log(path);
+        Debug.Log(field);
     }
 
 	public void btnClick()
