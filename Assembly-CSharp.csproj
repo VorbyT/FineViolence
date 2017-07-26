@@ -61,7 +61,10 @@
      <Compile Include="Assets\Resources\Scripts\GameManager.cs" />
      <Compile Include="Assets\Resources\Scripts\HealthHelper.cs" />
      <Compile Include="Assets\Resources\Scripts\LobbyHooks.cs" />
+     <Compile Include="Assets\Resources\Scripts\NetWork.cs" />
      <Compile Include="Assets\Resources\Scripts\NetworkPlayer.cs" />
+     <Compile Include="Assets\getIP.cs" />
+     <Compile Include="Assets\setIP.cs" />
      <None Include="Assets\Lobby\Documentation.txt" />
      <None Include="Assets\Lobby\Instruction.txt" />
      <None Include="Assets\Fonts\OpenSans\License!.txt" />
